@@ -13,7 +13,7 @@ main {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    width: 30%;
+    width: 40%;
     margin: 0 auto;
 }
 
@@ -21,11 +21,27 @@ p {
     font-family: 'Poppins', sans-serif;
 }
 
-#title {
-    font-size: 50px;
+section {
+    display: inline-flex;
+}
+
+.title {
+    font-size: 5vw;
     font-weight: 400;
     padding: 0;
     margin: 0;
+}
+
+.smlCaps {
+    font-variant: small-caps;
+    font-size: 5vw;
+    padding: 0;
+    margin: 0;
+}
+
+#nick {
+    padding-right: 1vw;
+    margin-right: 1vw;
 }
 
 .divider {
@@ -34,7 +50,7 @@ p {
     margin: 0 auto;
     background: linear-gradient(to right, red, orange, yellow, green, blue, violet);
     background-size: 200% auto;
-    animation: rainbow 3s linear infinite;
+    animation: rainbow 8s linear infinite;
 }
 
 @keyframes rainbow {
@@ -48,13 +64,14 @@ p {
 }
 
 .links a {
-    font-size: 15px;
+    font-size: 1.5vw;
     color: black;
     -webkit-transition: all 0.5s ease;
+    text-transform: uppercase;
 }
 
 .links a:hover {
-    font-size: 20px;
+    font-size: 2vw;
     color: gray;
     -webkit-transition: all 0.5s ease;
 }
