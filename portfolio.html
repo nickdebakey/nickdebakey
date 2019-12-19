@@ -19,15 +19,36 @@ source: https://simplelightbox.com/
     <link rel="stylesheet" href="simplelightbox.css">
     <script src="simple-lightbox.js"></script>
 
+    <!-- personal css stylesheet -->
+    <link rel="stylesheet" href="portfolio.css">
+
     <!-- google font api -->
     <link href="https://fonts.googleapis.com/css?family=Poppins:200,400&display=swap" rel="stylesheet">
 </head>
+<header>
+    <!-- navigation bar -->
+    <nav>
+        <!-- name of website in the top left -->
+        <p><a href="index.html">Nick DeBakey</a></p>
+        <!-- nav bar options to the right -->
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="portfolio.html">Photography Portfolio</a></li>
+            <li><a href="programming.html">Programming Projects</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </nav>
+</header>
 <body>
-
-<div class="gallery">
-    <a href="images/image1.jpg"><img src="images/thumbs/thumb1.jpg" alt="" title=""/></a>
-    <a href="images/image2.jpg"><img src="images/thumbs/thumb2.jpg" alt="" title="Beautiful Image"/></a>
-</div>
-
+<main>
+    <section class="title">
+        <p>Photography Portfolio</p>
+    </section>
+    <div class="divider"></div>
+    <div class="gallery">
+        <a href="images/image1.jpg"><img src="images/thumbs/thumb1.jpg" alt="" title=""/></a>
+        <a href="images/image2.jpg"><img src="images/thumbs/thumb2.jpg" alt="" title="Beautiful Image"/></a>
+    </div>
+</main>
 </body>
 </html>

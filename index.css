@@ -39,11 +39,6 @@
         text-transform: lowercase;
     }
 
-    #nick {
-        padding-right: 1vw;
-        margin-right: 1vw;
-    }
-
     .divider {
         padding: 1px 5px;
         width: 100%;
@@ -88,7 +83,6 @@
         letter-spacing: 5px;
         -webkit-transition: all 0.5s ease;
     }
-
 }
 
 /*
@@ -121,11 +115,6 @@
         font-size: 5vw;
         margin: 0 0 15px 0;
         padding: 0;
-    }
-
-    #nick {
-        padding-right: 1vw;
-        margin-right: 2vw;
     }
 
     .divider {
@@ -168,7 +157,6 @@
     .links a:visited {
         text-decoration: none;
     }
-
 }
 
 /*
@@ -201,11 +189,6 @@
         margin: 0 0 15px 0;
         padding: 0;
         text-transform: lowercase;
-    }
-
-    #nick {
-        padding-right: 2vw;
-        margin-right: 2vw;
     }
 
     .divider {
