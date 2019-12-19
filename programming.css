@@ -1,0 +1,220 @@
+/*
+    for photography portfolio page
+*/
+
+/*
+    google font api call:
+    font-family: 'Poppins', sans-serif;
+*/
+
+/*
+    for desktops/laptops
+ */
+
+@media only screen and (min-width: 992px) {
+
+    /* navigation bar */
+
+    nav {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        height: 60px;
+    }
+
+    nav p {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 200;
+        letter-spacing: 5px;
+        font-size: 24px;
+        float: left;
+    }
+
+    nav p a {
+        text-decoration: none;
+        transition: 0.4s;
+        text-transform: lowercase;
+    }
+
+    nav p a:link, a:visited {
+        color: black;
+    }
+
+    nav p a:hover {
+        color: lightgray;
+    }
+
+    nav ul {
+        float: left;
+    }
+
+    nav ul a {
+        transition: 0.4s;
+        text-decoration: none;
+        text-transform: lowercase;
+    }
+
+    nav ul li {
+        float: left;
+        list-style: none;
+        position: relative;
+    }
+
+    nav ul li a {
+        display: block;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 200;
+        color: black;
+        font-size: 14px;
+        padding: 2vh 1vh;
+    }
+
+    nav ul li a:link, a:visited {
+        color: black;
+    }
+
+    nav ul li a:active {
+        font-weight: 400;
+    }
+
+    nav ul li a:hover {
+        color: gray;
+    }
+
+    main {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    p {
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .title {
+        display: inline-flex;
+        margin-bottom: -2vh;
+    }
+
+    .title p {
+        font-size: 5vw;
+        margin: 0;
+        padding: 0;
+        text-transform: lowercase;
+    }
+
+    .divider {
+        padding: 1px 5px;
+        width: 100%;
+        margin: 15px auto;
+        background: linear-gradient(to right, red, orange, yellow, green, blue, purple, magenta);
+        background-size: 200% auto;
+        animation: rainbow 8s linear infinite;
+    }
+
+    @keyframes rainbow {
+        to {
+            background-position: 200% center;
+        }
+    }
+}
+
+/*
+    for tablets (in between desktop and mobile phones)
+ */
+
+@media only screen and (max-width: 992px) {
+
+    main {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    p {
+        font-family: 'Poppins', sans-serif;
+        text-transform: lowercase;
+    }
+
+    .title {
+        display: inline-flex;
+        margin-bottom: -10px;
+    }
+
+    .title p {
+        font-size: 5vw;
+        margin: 0 0 15px 0;
+        padding: 0;
+    }
+
+    .divider {
+        padding: 1px 5px;
+        width: 100%;
+        margin: 1vw auto;
+        background: linear-gradient(to right, red, orange, yellow, green, blue, purple, magenta);
+        background-size: 200% auto;
+        animation: rainbow 8s linear infinite;
+    }
+
+    @keyframes rainbow {
+        to {
+            background-position: 200% center;
+        }
+    }
+}
+
+/*
+    for mobile devices
+ */
+
+@media only screen and (max-width: 600px) {
+
+    main {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    p {
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .title {
+        display: inline-flex;
+        margin-bottom: -15px;
+    }
+
+    .title p {
+        font-size: 10vw;
+        margin: 0 0 15px 0;
+        padding: 0;
+        text-transform: lowercase;
+    }
+
+    .divider {
+        padding: 1px 5px;
+        width: 100%;
+        margin: 5px auto;
+        background: linear-gradient(135deg, red, orange, yellow, green, blue, purple, magenta);
+        background-size: 200% auto;
+        animation: rainbow 8s linear infinite;
+    }
+
+    @keyframes rainbow {
+        to {
+            background-position: 200% center;
+        }
+    }
+}
