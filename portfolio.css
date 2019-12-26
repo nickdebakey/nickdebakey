@@ -25,7 +25,7 @@
     transition: 0.5s;
     border-width: 1px;
     border-right-style: solid;
-    border-image: linear-gradient(to bottom, red, orange, yellow, green, blue, purple) 1 repeat;
+    border-image: linear-gradient(135deg, red, orange, yellow, green, blue, purple, magenta) 1 repeat;
 }
 
 /* sidebar links */
@@ -45,7 +45,7 @@
     transition: 0.4s;
     border-width: 1px;
     border-style: solid;
-    border-image: linear-gradient(to right, red, orange, yellow, green, blue, purple) 1 repeat;
+    border-image: linear-gradient(135deg, red, orange, yellow, green, blue, purple, magenta) 1 repeat;
 }
 
 /* sidebar link hover properties */
@@ -127,7 +127,7 @@ p {
     padding: 1px 5px;
     width: 100%;
     margin: 1vw auto;
-    background: linear-gradient(to right, red, orange, yellow, green, blue, purple, magenta);
+    background: linear-gradient(135deg, red, orange, yellow, green, blue, purple, magenta);
     background-size: 200% auto;
     animation: rainbow 8s linear infinite;
 }
