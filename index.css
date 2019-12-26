@@ -21,12 +21,12 @@ main {
         font-family: 'Poppins', sans-serif;
     }
 
-    .name {
+    .title {
         display: inline-flex;
         margin-bottom: -1vh;
     }
 
-    .name p {
+    .title p {
         font-size: 10vw;
         margin: 0 0 1vh 0;
         padding: 0;
@@ -63,7 +63,7 @@ main {
         margin: 0.3125em 0;
         border-width: 1px;
         border-style: solid;
-        border-image: linear-gradient(to right, red, orange, yellow, green, blue, purple) 1 repeat;
+        border-image: linear-gradient(135deg, red, orange, yellow, green, blue, purple, magenta) 1 repeat;
         -webkit-transition: all 0.5s ease;
         letter-spacing: normal;
     }
