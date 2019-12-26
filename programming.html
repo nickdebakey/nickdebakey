@@ -1,8 +1,16 @@
+<!--
+Nick DeBakey
+Personal Website
+-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>About</title>
+    <title>Programming Projects</title>
+
+    <!-- personal JavaScript -->
+    <script src="programming.js"></script>
 
     <!-- personal css stylesheet -->
     <link rel="stylesheet" href="programming.css">
@@ -13,15 +21,21 @@
 <header>
     <!-- navigation bar -->
     <nav>
-        <!-- name of website in the top left -->
-        <p><a href="index.html">Nick DeBakey</a></p>
-        <!-- nav bar options to the right -->
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="portfolio.html">Photography Portfolio</a></li>
-            <li><a href="programming.html">Programming Projects</a></li>
-            <li><a href="about.html">About</a></li>
-        </ul>
+        <!-- sidebar that is hidden until active from nav button -->
+        <div id="mySidebar" class="sidebar">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="index.html" class="links">Home</a>
+            <a href="portfolio.html" class="links">Photography<br>Porfolio</a>
+            <a href="programming.html" class="links">Programming<br>Projects</a>
+            <a href="about.html" class="links">About</a>
+        </div>
+        <div class="navContainer">
+            <!-- hanburger nav button -->
+            <button class="openbtn" onclick="openNav()">&#9776;</button>
+
+            <!-- name of website to right of hamburger nav button -->
+            <p class="home"><a href="index.html">Nick DeBakey</a></p>
+        </div>
     </nav>
 </header>
 <body>

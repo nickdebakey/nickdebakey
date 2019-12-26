@@ -7,165 +7,7 @@
     font-family: 'Poppins', sans-serif;
 */
 
-/*
-    for desktops/laptops
- */
-
-@media only screen and (min-width: 992px) {
-
-    main {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        text-align: center;
-        width: 40%;
-        margin: 0 auto;
-    }
-
-    p {
-        font-family: 'Poppins', sans-serif;
-    }
-
-    .name {
-        display: inline-flex;
-        margin-bottom: -2vh;
-    }
-
-    .name p {
-        font-size: 5vw;
-        margin: 0;
-        padding: 0;
-        text-transform: lowercase;
-    }
-
-    .divider {
-        padding: 1px 5px;
-        width: 100%;
-        margin: 15px auto;
-        background: linear-gradient(to right, red, orange, yellow, green, blue, purple, magenta);
-        background-size: 200% auto;
-        animation: rainbow 8s linear infinite;
-    }
-
-    @keyframes rainbow {
-        to {
-            background-position: 200% center;
-        }
-    }
-
-    .links {
-        font-weight: 200;
-        font-family: 'Poppins', sans-serif;
-    }
-
-    .links a {
-        font-size: 1.5vw;
-        color: black;
-        letter-spacing: normal;
-        text-transform: lowercase;
-        margin: 10px 0;
-        display: inline-flex;
-        -webkit-transition: all 0.5s ease;
-    }
-
-    .links a:link {
-        text-decoration: none;
-    }
-
-    .links a:visited {
-        text-decoration: none;
-    }
-
-    .links a:hover {
-        font-size: 2vw;
-        color: gray;
-        letter-spacing: 5px;
-        -webkit-transition: all 0.5s ease;
-    }
-}
-
-/*
-    for tablets (in between desktop and mobile phones)
- */
-
-@media only screen and (max-width: 992px) {
-
-    main {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        text-align: center;
-        width: 60%;
-        margin: 0 auto;
-    }
-
-    p {
-        font-family: 'Poppins', sans-serif;
-        text-transform: lowercase;
-    }
-
-    .name {
-        display: inline-flex;
-        margin-bottom: -10px;
-    }
-
-    .name p {
-        font-size: 5vw;
-        margin: 0 0 15px 0;
-        padding: 0;
-    }
-
-    .divider {
-        padding: 1px 5px;
-        width: 100%;
-        margin: 1vw auto;
-        background: linear-gradient(to right, red, orange, yellow, green, blue, purple, magenta);
-        background-size: 200% auto;
-        animation: rainbow 8s linear infinite;
-    }
-
-    @keyframes rainbow {
-        to {
-            background-position: 200% center;
-        }
-    }
-
-    .links {
-        font-weight: 200;
-        font-family: 'Poppins', sans-serif;
-        margin-top: 2vh;
-    }
-
-    .links a {
-        font-size: 2.5vw;
-        text-transform: lowercase;
-        color: black;
-        display: inline-flex;
-        padding: 5px 50px;
-        margin: 10px 0;
-        border-width: 1px;
-        border-style: solid;
-        border-image: linear-gradient(to right, red, orange, yellow, green, blue, purple) 1 repeat;
-    }
-
-    .links a:link {
-        text-decoration: none;
-    }
-
-    .links a:visited {
-        text-decoration: none;
-    }
-}
-
-/*
-    for mobile devices
- */
-
-@media only screen and (max-width: 600px) {
-
-    main {
+main {
         position: absolute;
         top: 50%;
         left: 50%;
@@ -181,18 +23,18 @@
 
     .name {
         display: inline-flex;
-        margin-bottom: -15px;
+        margin-bottom: -1vh;
     }
 
     .name p {
         font-size: 10vw;
-        margin: 0 0 15px 0;
+        margin: 0 0 1vh 0;
         padding: 0;
         text-transform: lowercase;
     }
 
     .divider {
-        padding: 1px 5px;
+        padding: 0.0625em 0.3125em;
         width: 100%;
         margin: 5px auto;
         background: linear-gradient(135deg, red, orange, yellow, green, blue, purple, magenta);
@@ -209,19 +51,21 @@
     .links {
         font-weight: 200;
         font-family: 'Poppins', sans-serif;
-        margin-top: 10px;
+        margin-top: 0.625em;
     }
 
     .links a {
-        font-size: 4vw;
+        font-size: 3vw;
         color: black;
         text-transform: lowercase;
         display: inline-flex;
-        padding: 5px 50px;
-        margin: 5px 0;
+        padding: 0.3125em 3.125em;
+        margin: 0.3125em 0;
         border-width: 1px;
         border-style: solid;
         border-image: linear-gradient(to right, red, orange, yellow, green, blue, purple) 1 repeat;
+        -webkit-transition: all 0.5s ease;
+        letter-spacing: normal;
     }
 
     .links a:link {
@@ -232,4 +76,6 @@
         text-decoration: none;
     }
 
-}
+    .links a:hover {
+        letter-spacing: 0.125em;
+    }

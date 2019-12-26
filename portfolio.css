@@ -8,213 +8,136 @@
 */
 
 /*
-    for desktops/laptops
+    sidebar / sidepanel for navigation
  */
 
-@media only screen and (min-width: 992px) {
+/* sidebar menu */
+.sidebar {
+    height: 100%;
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: white;
+    overflow-x: hidden; /* disable horizontal scroll */
+    padding-top: 3.75em;
+    transition: 0.5s;
+    border-width: 1px;
+    border-right-style: solid;
+    border-image: linear-gradient(to bottom, red, orange, yellow, green, blue, purple) 1 repeat;
+}
 
-    /* navigation bar */
+/* sidebar links */
+.sidebar .links {
+    margin-top: 10vh;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    padding: 1vh 1vh;
+    width: auto;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    text-transform: lowercase;
+    font-size: 2em;
+    color: black;
+    text-align: center;
+    display: block;
+    transition: 0.4s;
+    border-width: 1px;
+    border-style: solid;
+    border-image: linear-gradient(to right, red, orange, yellow, green, blue, purple) 1 repeat;
+}
 
-    nav {
-        display: flex;
-        justify-content: space-evenly;
-        width: 100%;
-        height: 60px;
-    }
+/* sidebar link hover properties */
+.sidebar a:hover {
+    color: gray;
+    letter-spacing: 0.3125em;
+}
 
-    nav p {
-        font-family: 'Poppins', sans-serif;
-        font-weight: 200;
-        letter-spacing: 5px;
-        font-size: 24px;
-        float: left;
-    }
+/* x to close sidebar */
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    left: 3vw;
+    font-size: 7.5em;
+    text-decoration: none;
+    color: black
+}
 
-    nav p a {
-        text-decoration: none;
-        transition: 0.4s;
-        text-transform: lowercase;
-    }
+/* hamburger to open sidebar */
+.openbtn {
+    font-size: 5.5em;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border: none;
+    margin: 0 0 0 2vw;
+    padding: 0;
+}
 
-    nav p a:link, a:visited {
-        color: black;
-    }
+/* "nick debakey" home link next to hamburger */
+.home a {
+    /* positioning */
+    height: 100px;
+    line-height: 100px;
+    white-space: nowrap;
+    margin-left: 1vw;
 
-    nav p a:hover {
-        color: lightgray;
-    }
+    /* font properties */
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.3125em;
+    font-size: 3em;
+    text-decoration: none;
+    text-transform: lowercase;
+}
 
-    nav ul {
-        float: left;
-    }
+.navContainer {
+    display: flex;
+    justify-content: left;
+    width: 100%;
+}
 
-    nav ul a {
-        transition: 0.4s;
-        text-decoration: none;
-        text-transform: lowercase;
-    }
+/* rest of the page / not nav bar + sidebar */
+main {
+    text-align: center;
+    width: 95%;
+    margin: 0 auto;
+    z-index: -1;
+}
 
-    nav ul li {
-        float: left;
-        list-style: none;
-        position: relative;
-    }
+p {
+    font-family: 'Poppins', sans-serif;
+    text-transform: lowercase;
+}
 
-    nav ul li a {
-        display: block;
-        font-family: 'Poppins', sans-serif;
-        font-weight: 200;
-        color: black;
-        font-size: 14px;
-        padding: 2vh 1vh;
-    }
+.title {
+    display: inline-flex;
+    margin-bottom: -10px;
+}
 
-    nav ul li a:link, a:visited {
-        color: black;
-    }
+.title p {
+    font-size: 5vw;
+    margin: 0 0 15px 0;
+    padding: 0;
+}
 
-    nav ul li a:active {
-        font-weight: 400;
-    }
+.divider {
+    padding: 1px 5px;
+    width: 100%;
+    margin: 1vw auto;
+    background: linear-gradient(to right, red, orange, yellow, green, blue, purple, magenta);
+    background-size: 200% auto;
+    animation: rainbow 8s linear infinite;
+}
 
-    nav ul li a:hover {
-        color: gray;
-    }
-
-    main {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        text-align: center;
-        width: 80%;
-        margin: 0 auto;
-    }
-
-    p {
-        font-family: 'Poppins', sans-serif;
-    }
-
-    .title {
-        display: inline-flex;
-        margin-bottom: -2vh;
-    }
-
-    .title p {
-        font-size: 5vw;
-        margin: 0;
-        padding: 0;
-        text-transform: lowercase;
-    }
-
-    .divider {
-        padding: 1px 5px;
-        width: 100%;
-        margin: 15px auto;
-        background: linear-gradient(to right, red, orange, yellow, green, blue, purple, magenta);
-        background-size: 200% auto;
-        animation: rainbow 8s linear infinite;
-    }
-
-    @keyframes rainbow {
-        to {
-            background-position: 200% center;
-        }
+@keyframes rainbow {
+    to {
+        background-position: 200% center;
     }
 }
 
-/*
-    for tablets (in between desktop and mobile phones)
- */
-
-@media only screen and (max-width: 992px) {
-
-    main {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        text-align: center;
-        width: 60%;
-        margin: 0 auto;
-    }
-
-    p {
-        font-family: 'Poppins', sans-serif;
-        text-transform: lowercase;
-    }
-
-    .title {
-        display: inline-flex;
-        margin-bottom: -10px;
-    }
-
-    .title p {
-        font-size: 5vw;
-        margin: 0 0 15px 0;
-        padding: 0;
-    }
-
-    .divider {
-        padding: 1px 5px;
-        width: 100%;
-        margin: 1vw auto;
-        background: linear-gradient(to right, red, orange, yellow, green, blue, purple, magenta);
-        background-size: 200% auto;
-        animation: rainbow 8s linear infinite;
-    }
-
-    @keyframes rainbow {
-        to {
-            background-position: 200% center;
-        }
-    }
-}
-
-/*
-    for mobile devices
- */
-
-@media only screen and (max-width: 600px) {
-
-    main {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        text-align: center;
-        width: 80%;
-        margin: 0 auto;
-    }
-
-    p {
-        font-family: 'Poppins', sans-serif;
-    }
-
-    .title {
-        display: inline-flex;
-        margin-bottom: -15px;
-    }
-
-    .title p {
-        font-size: 10vw;
-        margin: 0 0 15px 0;
-        padding: 0;
-        text-transform: lowercase;
-    }
-
-    .divider {
-        padding: 1px 5px;
-        width: 100%;
-        margin: 5px auto;
-        background: linear-gradient(135deg, red, orange, yellow, green, blue, purple, magenta);
-        background-size: 200% auto;
-        animation: rainbow 8s linear infinite;
-    }
-
-    @keyframes rainbow {
-        to {
-            background-position: 200% center;
-        }
-    }
+.gallery img {
+    max-width: 100%;
 }
