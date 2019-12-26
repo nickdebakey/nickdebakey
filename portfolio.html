@@ -3,21 +3,11 @@ Nick DeBakey
 Personal Website
 -->
 
-<!--
-jQuery plugin - Simple Lightbox
-Author: andré rinas
-source: https://simplelightbox.com/
--->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Photography Portfolio</title>
-
-    <!-- lightbox gallery jQuery -->
-    <link rel="stylesheet" href="simplelightbox.css">
-    <script src="simple-lightbox.js"></script>
 
     <!-- personal JavaScript -->
     <script src="portfolio.js"></script>
@@ -54,10 +44,12 @@ source: https://simplelightbox.com/
         <p>Photography Portfolio</p>
     </section>
     <div class="divider"></div>
-    <div class="gallery">
-        <a href="images/image1.jpg"><img src="images/thumbs/thumb1.jpg" alt="" title=""/></a>
-        <a href="images/image2.jpg"><img src="images/thumbs/thumb2.jpg" alt="" title="Beautiful Image"/></a>
+    <div class="imgal-container">
+        <img src="images/image1.jpg" alt="" class="imgal-img"/>
+        <img src="images/image2.jpg" alt="" class="imgal-img"/>
     </div>
 </main>
 </body>
 </html>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" crossorigin="anonymous"></script>
+<script src="imgal.js"></script>

@@ -11,6 +11,3 @@ function openNav() {
 function closeNav() {
     $("mySidebar").style.width = "0";
 }
-
-/* lightbox / grid archive */
-var lightbox = $('.gallery a').simpleLightbox(options);
