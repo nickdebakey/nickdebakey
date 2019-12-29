@@ -18,6 +18,7 @@ Personal Website
     <!-- google font api -->
     <link href="https://fonts.googleapis.com/css?family=Poppins:200,400&display=swap" rel="stylesheet">
 </head>
+<body>
 <header>
     <!-- navigation bar -->
     <nav>
@@ -30,7 +31,7 @@ Personal Website
             <a href="about.html" class="links">About</a>
         </div>
         <div class="navContainer">
-            <!-- hanburger nav button -->
+            <!-- hamburger nav button -->
             <button class="openbtn" onclick="openNav()">&#9776;</button>
 
             <!-- name of website to right of hamburger nav button -->
@@ -38,12 +39,32 @@ Personal Website
         </div>
     </nav>
 </header>
-<body>
 <main>
     <section class="title">
         <p>Photography Portfolio</p>
     </section>
     <div class="divider"></div>
 </main>
+<div class="tab">
+    <button class="tablinks" onclick="openPortfolio(event, 'SelfPortrait')">Self Portraits</button>
+    <button class="tablinks" onclick="openPortfolio(event, 'Portrait')">Portraits</button>
+    <button class="tablinks" onclick="openPortfolio(event, 'Nature')">Nature</button>
+    <button class="tablinks" onclick="openPortfolio(event, 'Concert')">Concert</button>
+</div>
+<div id="SelfPortrait" class="tabcontent">
+    <!-- insert self portrait photos here when you design how they should be laid out -->
+</div>
+
+<div id="Portrait" class="tabcontent">
+    <!-- insert portrait photos here when you design how they should be laid out -->
+</div>
+
+<div id="Nature" class="tabcontent">
+    <!-- insert nature photos here when you design how they should be laid out -->
+</div>
+
+<div id="Concert" class="tabcontent">
+    <!-- insert concert photos here when you design how they should be laid out -->
+</div>
 </body>
 </html>
