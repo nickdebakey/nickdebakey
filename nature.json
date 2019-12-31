@@ -1,0 +1,144 @@
+﻿{
+  "photoset": {
+    "photoGroup1": [
+      {
+        "id": "49290736171",
+        "secret": "2703f5b577",
+        "server": "65535",
+        "farm": 66,
+        "title": "3_SF_6",
+        "isprimary": "0",
+        "ispublic": 1,
+        "isfriend": 0,
+        "isfamily": 0,
+        "originalsecret": "1baabf3cd1",
+        "originalformat": "jpg"
+      },
+      {
+        "id": "49290248993",
+        "secret": "05fd935c36",
+        "server": "65535",
+        "farm": 66,
+        "title": "3_SF_9",
+        "isprimary": "0",
+        "ispublic": 1,
+        "isfriend": 0,
+        "isfamily": 0,
+        "originalsecret": "8d3dc40fd7",
+        "originalformat": "jpg"
+      }
+      ],
+  "photoGroup2": [
+      {
+        "id": "49290254423",
+        "secret": "d1c04babe1",
+        "server": "65535",
+        "farm": 66,
+        "title": "3_SF_1",
+        "isprimary": "1",
+        "ispublic": 1,
+        "isfriend": 0,
+        "isfamily": 0,
+        "originalsecret": "bc3cb85b24",
+        "originalformat": "jpg"
+      }
+    ],
+  "photoGroup3": [
+    {
+      "id": "49290735561",
+      "secret": "01d2f061bc",
+      "server": "65535",
+      "farm": 66,
+      "title": "3_SF_7",
+      "isprimary": "0",
+      "ispublic": 1,
+      "isfriend": 0,
+      "isfamily": 0,
+      "originalsecret": "640f4969b7",
+      "originalformat": "jpg"
+    },
+    {
+      "id": "49290736631",
+      "secret": "4af8a24875",
+      "server": "65535",
+      "farm": 66,
+      "title": "3_SF_5",
+      "isprimary": "0",
+      "ispublic": 1,
+      "isfriend": 0,
+      "isfamily": 0,
+      "originalsecret": "1a106b03a6",
+      "originalformat": "jpg"
+    }
+    ],
+  "photoGroup4": [
+    {
+      "id": "49290738571",
+      "secret": "0ac1bb9658",
+      "server": "65535",
+      "farm": 66,
+      "title": "3_SF_2",
+      "isprimary": "0",
+      "ispublic": 1,
+      "isfriend": 0,
+      "isfamily": 0,
+      "originalsecret": "eb0738c045",
+      "originalformat": "jpg"
+    },
+      {
+        "id": "49290733326",
+        "secret": "1697e2abb9",
+        "server": "65535",
+        "farm": 66,
+        "title": "3_SF_10",
+        "isprimary": "0",
+        "ispublic": 1,
+        "isfriend": 0,
+        "isfamily": 0,
+        "originalsecret": "0302d94a0c",
+        "originalformat": "jpg"
+      },
+      {
+        "id": "49290942887",
+        "secret": "d912ebc592",
+        "server": "65535",
+        "farm": 66,
+        "title": "3_SF_3",
+        "isprimary": "0",
+        "ispublic": 1,
+        "isfriend": 0,
+        "isfamily": 0,
+        "originalsecret": "dee32a22cb",
+        "originalformat": "jpg"
+      }
+    ],
+  "photoGroup5": [
+      {
+        "id": "49290942057",
+        "secret": "75074ef9e9",
+        "server": "65535",
+        "farm": 66,
+        "title": "3_SF_4",
+        "isprimary": "0",
+        "ispublic": 1,
+        "isfriend": 0,
+        "isfamily": 0,
+        "originalsecret": "da7f814f98",
+        "originalformat": "jpg"
+      },
+      {
+        "id": "49290939442",
+        "secret": "fa7d04556c",
+        "server": "65535",
+        "farm": 66,
+        "title": "3_SF_8",
+        "isprimary": "0",
+        "ispublic": 1,
+        "isfriend": 0,
+        "isfamily": 0,
+        "originalsecret": "e9578c543f",
+        "originalformat": "jpg"
+      }
+    ]
+  }
+}

@@ -11,9 +11,7 @@ Personal Website
 
     <!-- personal css stylesheet -->
     <link rel="stylesheet" href="portfolio.css">
-
-    <!-- personal JavaScript -->
-    <script src="portfolio.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
 
     <!-- google font api -->
     <link href="https://fonts.googleapis.com/css?family=Poppins:200,400&display=swap" rel="stylesheet">
@@ -45,6 +43,7 @@ Personal Website
     </section>
     <div class="divider"></div>
 </main>
+<!-- tabs for different categories -->
 <div class="tab">
     <button class="tablinks" onclick="openPortfolio(event, 'SelfPortrait')">Self Portraits</button>
     <button class="tablinks" onclick="openPortfolio(event, 'Portrait')">Portraits</button>
@@ -52,19 +51,209 @@ Personal Website
     <button class="tablinks" onclick="openPortfolio(event, 'Concert')">Concert</button>
 </div>
 <div id="SelfPortrait" class="tabcontent">
-    <!-- insert self portrait photos here when you design how they should be laid out -->
+    <!-- link to JSON: https://api.flickr.com/services/rest/?method=flickr.photosets.getPhotos&api_key=05c6316ed081154924c3510fdbef4a46&photoset_id=72157712434965846&extras=original_format&format=json&nojsoncallback=1 -->
+
+    <div id="sp_photoGroup1">
+        <!-- 1_SP_1 -->
+        <!-- 1_SP_2 -->
+    </div>
+
+    <div id="sp_photoGroup2">
+        <!-- 1_SP_3 -->
+        <!-- 1_SP_4 -->
+    </div>
+
+    <div id="sp_photoGroup3">
+        <!-- 1_SP_15 -->
+        <!-- 1_SP_16 -->
+        <!-- 1_SP_17 -->
+    </div>
+
+    <div id="sp_photoGroup4">
+        <!-- 1_SP_14 -->
+    </div>
+
+    <div id="sp_photoGroup5">
+        <!-- 1_SP_6 -->
+        <!-- 1_SP_8 -->
+        <!-- 1_SP_7 -->
+    </div>
+
+    <div id="sp_photoGroup6">
+        <!-- 1_SP_9 -->
+        <!-- 1_SP_10 -->
+    </div>
+
+    <div id="sp_photoGroup7">
+        <!-- 1_SP_11 -->
+        <!-- 1_SP_12 -->
+    </div>
 </div>
 
 <div id="Portrait" class="tabcontent">
-    <!-- insert portrait photos here when you design how they should be laid out -->
+<!--    link to JSON: https://api.flickr.com/services/rest/?method=flickr.photosets.getPhotos&api_key=05c6316ed081154924c3510fdbef4a46&photoset_id=72157712435166892&extras=original_format&format=json&nojsoncallback=1 -->
+    <div id="portrait_photoGroup1">
+        <!-- 2_P_1 -->
+        <!-- 2_P_2 -->
+        <!-- 2_P_3 -->
+    </div>
+
+    <div id="portrait_photoGroup2">
+        <!-- 2_P_4 -->
+        <!-- 2_P_5 -->
+    </div>
+
+    <div id="portrait_photoGroup3">
+        <!-- 2_P_6 -->
+        <!-- 2_P_7 -->
+    </div>
+
+    <div id="portrait_photoGroup4">
+        <!-- 2_P_8 -->
+        <!-- 2_P_9 -->
+    </div>
+
+    <div id="portrait_photoGroup5">
+        <!-- 2_P_10 -->
+        <!-- 2_P_11 -->
+        <!-- 2_P_12 -->
+    </div>
+
+    <div id="portrait_photoGroup6">
+        <!-- 2_P_13 -->
+        <!-- 2_P_14 -->
+    </div>
+
+    <div id="portrait_photoGroup7">
+        <!-- 2_P_15 -->
+        <!-- 2_P_16 -->
+    </div>
+
+    <div id="portrait_photoGroup8">
+        <!-- 2_P_17 -->
+        <!-- 2_P_21 -->
+    </div>
+
+    <div id="portrait_photoGroup9">
+        <!-- 2_P_18 -->
+    </div>
+
+    <div id="portrait_photoGroup10">
+        <!-- 2_P_19 -->
+        <!-- 2_P_22 -->
+        <!-- 2_P_20 -->
+    </div>
+
+    <div id="portrait_photoGroup11">
+        <!-- 2_P_24 -->
+        <!-- 2_P_23 -->
+    </div>
+
+    <div id="portrait_photoGroup12">
+        <!-- 2_P_25 -->
+        <!-- 2_P_26 -->
+        <!-- 2_P_27 -->
+    </div>
+
+    <div id="portrait_photoGroup13">
+        <!-- 2_P_28 -->
+        <!-- 2_P_29 -->
+    </div>
+
+    <div id="portrait_photoGroup14">
+        <!-- 2_P_30 -->
+    </div>
 </div>
 
 <div id="Nature" class="tabcontent">
-    <!-- insert nature photos here when you design how they should be laid out -->
+    <!-- link to JSON: https://api.flickr.com/services/rest/?method=flickr.photosets.getPhotos&api_key=05c6316ed081154924c3510fdbef4a46&photoset_id=72157712406473946&extras=original_format&format=json&nojsoncallback=1 -->
+
+    <div id="nature_photoGroup1">
+        <!-- 3_SF_6 -->
+        <!-- 3_SF_9 -->
+    </div>
+
+    <div id="nature_photoGroup2">
+        <!-- 3_SF_1 -->
+    </div>
+
+    <div id="nature_photoGroup3">
+        <!-- 3_SF_7 -->
+        <!-- 3_SF_5 -->
+    </div>
+
+    <div id="nature_photoGroup4">
+        <!-- 3_SF_2 -->
+        <!-- 3_SF_10 -->
+        <!-- 3_SF_3 -->
+    </div>
+
+    <div id="nature_photoGroup5">
+        <!-- 3_SF_4 -->
+        <!-- 3_SF_8 -->
+    </div>
+
 </div>
 
 <div id="Concert" class="tabcontent">
     <!-- insert concert photos here when you design how they should be laid out -->
+<!--    link to JSON: https://api.flickr.com/services/rest/?method=flickr.photosets.getPhotos&api_key=05c6316ed081154924c3510fdbef4a46&photoset_id=72157712435173997&extras=original_format&format=json&nojsoncallback=1 -->
+<!--    links to images-->
+    <div id="concert_photoGroup1">
+        <!-- 4_CP_1 -->
+        <!-- 4_CP_2 -->
+    </div>
+
+    <div id="concert_photoGroup2">
+        <!-- 4_CP_3 -->
+        <!-- 4_CP_4 -->
+    </div>
+
+    <div id="concert_photoGroup3">
+        <!-- 4_CP_5 -->
+        <!-- 4_CP_6 -->
+    </div>
+
+    <div id="concert_photoGroup4">
+        <!-- 4_CP_7 -->
+        <!-- 4_CP_8 -->
+    </div>
+
+    <div id="concert_photoGroup5">
+        <!-- 4_CP_9 -->
+    </div>
+
+    <div id="concert_photoGroup6">
+        <!-- 4_CP_10 -->
+        <!-- 4_CP_13-->
+    </div>
+
+    <div id="concert_photoGroup7">
+        <!-- 4_CP_11 -->
+        <!-- 4_CP_12 -->
+    </div>
+
+    <div id="concert_photoGroup8">
+        <!-- 4_CP_14 -->
+        <!-- 4_CP_15 -->
+    </div>
+
+    <div id="concert_photoGroup9">
+        <!-- 4_CP_18 -->
+        <!-- 4_CP_19 -->
+    </div>
+
+    <div id="concert_photoGroup10">
+        <!-- 4_CP_17 -->
+        <!-- 4_CP_16 -->
+    </div>
 </div>
+
+<!-- lightbox javascript -->
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+
+<!-- personal JavaScript -->
+<script src="portfolio.js"></script>
 </body>
 </html>

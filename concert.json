@@ -1,0 +1,271 @@
+﻿{
+  "photoset": {
+    "photoGroup1": [
+      {
+        "id": "49290732211",
+        "secret": "088ae19809",
+        "server": "65535",
+        "farm": 66,
+        "title": "4_CP_1",
+        "isprimary": "0",
+        "ispublic": 1,
+        "isfriend": 0,
+        "isfamily": 0,
+        "originalsecret": "c24373a2a6",
+        "originalformat": "jpg"
+      },
+      {
+        "id": "49290730961",
+        "secret": "aa75b5cc17",
+        "server": "65535",
+        "farm": 66,
+        "title": "4_CP_2",
+        "isprimary": "0",
+        "ispublic": 1,
+        "isfriend": 0,
+        "isfamily": 0,
+        "originalsecret": "3d07436b28",
+        "originalformat": "jpg"
+      }
+      ],
+  "photoGroup2": [
+      {
+        "id": "49290934142",
+        "secret": "87220a8cba",
+        "server": "65535",
+        "farm": 66,
+        "title": "4_CP_3",
+        "isprimary": "1",
+        "ispublic": 1,
+        "isfriend": 0,
+        "isfamily": 0,
+        "originalsecret": "28b95b9bff",
+        "originalformat": "jpg"
+      },
+      {
+        "id": "49290243563",
+        "secret": "ec469c5040",
+        "server": "65535",
+        "farm": 66,
+        "title": "4_CP_4",
+        "isprimary": "0",
+        "ispublic": 1,
+        "isfriend": 0,
+        "isfamily": 0,
+        "originalsecret": "b50c61a3ee",
+        "originalformat": "jpg"
+      }
+    ],
+  "photoGroup3": [
+      {
+        "id": "49290932837",
+        "secret": "0197d9bff4",
+        "server": "65535",
+        "farm": 66,
+        "title": "4_CP_5",
+        "isprimary": "0",
+        "ispublic": 1,
+        "isfriend": 0,
+        "isfamily": 0,
+        "originalsecret": "c168d72584",
+        "originalformat": "jpg"
+      },
+      {
+        "id": "49290932007",
+        "secret": "68938e57cb",
+        "server": "65535",
+        "farm": 66,
+        "title": "4_CP_6",
+        "isprimary": "0",
+        "ispublic": 1,
+        "isfriend": 0,
+        "isfamily": 0,
+        "originalsecret": "072e72818a",
+        "originalformat": "jpg"
+      }
+    ],
+  "photoGroup4": [
+      {
+        "id": "49290931157",
+        "secret": "0551d6b1d6",
+        "server": "65535",
+        "farm": 66,
+        "title": "4_CP_7",
+        "isprimary": "0",
+        "ispublic": 1,
+        "isfriend": 0,
+        "isfamily": 0,
+        "originalsecret": "50100054ee",
+        "originalformat": "jpg"
+      },
+      {
+        "id": "49290725876",
+        "secret": "01100b0189",
+        "server": "65535",
+        "farm": 66,
+        "title": "4_CP_8",
+        "isprimary": "0",
+        "ispublic": 1,
+        "isfriend": 0,
+        "isfamily": 0,
+        "originalsecret": "17a4e8e9a5",
+        "originalformat": "jpg"
+      }
+    ],
+  "photoGroup5": [
+      {
+        "id": "49290240283",
+        "secret": "1ae19d9cb9",
+        "server": "65535",
+        "farm": 66,
+        "title": "4_CP_9",
+        "isprimary": "0",
+        "ispublic": 1,
+        "isfriend": 0,
+        "isfamily": 0,
+        "originalsecret": "39799f741c",
+        "originalformat": "jpg"
+      }
+    ],
+  "photoGroup6": [
+      {
+        "id": "49290724881",
+        "secret": "b718e3f42e",
+        "server": "65535",
+        "farm": 66,
+        "title": "4_CP_10",
+        "isprimary": "0",
+        "ispublic": 1,
+        "isfriend": 0,
+        "isfamily": 0,
+        "originalsecret": "7af16d3826",
+        "originalformat": "jpg"
+      },
+    {
+      "id": "49290722991",
+      "secret": "baf2ae5b4b",
+      "server": "65535",
+      "farm": 66,
+      "title": "4_CP_13",
+      "isprimary": "0",
+      "ispublic": 1,
+      "isfriend": 0,
+      "isfamily": 0,
+      "originalsecret": "8a6c48e3e7",
+      "originalformat": "jpg"
+    }
+    ],
+  "photoGroup7": [
+      {
+        "id": "49290928817",
+        "secret": "62a3376554",
+        "server": "65535",
+        "farm": 66,
+        "title": "4_CP_11",
+        "isprimary": "0",
+        "ispublic": 1,
+        "isfriend": 0,
+        "isfamily": 0,
+        "originalsecret": "baa5f14af3",
+        "originalformat": "jpg"
+      },
+      {
+        "id": "49290238648",
+        "secret": "22a6c47f6d",
+        "server": "65535",
+        "farm": 66,
+        "title": "4_CP_12",
+        "isprimary": "0",
+        "ispublic": 1,
+        "isfriend": 0,
+        "isfamily": 0,
+        "originalsecret": "3ac623535d",
+        "originalformat": "jpg"
+      }
+    ],
+  "photoGroup8": [
+      {
+        "id": "49290927042",
+        "secret": "e8fc2f321c",
+        "server": "65535",
+        "farm": 66,
+        "title": "4_CP_14",
+        "isprimary": "0",
+        "ispublic": 1,
+        "isfriend": 0,
+        "isfamily": 0,
+        "originalsecret": "26a3879bb7",
+        "originalformat": "jpg"
+      },
+      {
+        "id": "49290721251",
+        "secret": "1a9e77af93",
+        "server": "65535",
+        "farm": 66,
+        "title": "4_CP_15",
+        "isprimary": "0",
+        "ispublic": 1,
+        "isfriend": 0,
+        "isfamily": 0,
+        "originalsecret": "c044bfd9d6",
+        "originalformat": "jpg"
+      }
+    ],
+  "photoGroup9": [
+      {
+        "id": "49290718841",
+        "secret": "6c025a96d9",
+        "server": "65535",
+        "farm": 66,
+        "title": "4_CP_18",
+        "isprimary": "0",
+        "ispublic": 1,
+        "isfriend": 0,
+        "isfamily": 0,
+        "originalsecret": "1c460f5441",
+        "originalformat": "jpg"
+      },
+      {
+        "id": "49290233303",
+        "secret": "34e5a3f6b2",
+        "server": "65535",
+        "farm": 66,
+        "title": "4_CP_19",
+        "isprimary": "0",
+        "ispublic": 1,
+        "isfriend": 0,
+        "isfamily": 0,
+        "originalsecret": "5159f69287",
+        "originalformat": "jpg"
+      }
+    ],
+  "photoGroup10": [
+      {
+        "id": "49290719736",
+        "secret": "53e382221f",
+        "server": "65535",
+        "farm": 66,
+        "title": "4_CP_17",
+        "isprimary": "0",
+        "ispublic": 1,
+        "isfriend": 0,
+        "isfamily": 0,
+        "originalsecret": "956472c198",
+        "originalformat": "jpg"
+      },
+      {
+        "id": "49290720436",
+        "secret": "2ded376773",
+        "server": "65535",
+        "farm": 66,
+        "title": "4_CP_16",
+        "isprimary": "0",
+        "ispublic": 1,
+        "isfriend": 0,
+        "isfamily": 0,
+        "originalsecret": "d217f0719e",
+        "originalformat": "jpg"
+      }
+    ]
+  }
+}

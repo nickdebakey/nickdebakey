@@ -20,7 +20,7 @@
     top: 0;
     left: 0;
     background-color: white;
-    overflow-x: hidden; /* disable horizontal scroll */
+    overflow-x: hidden;
     padding-top: 3.75em;
     transition: 0.5s;
     border-width: 1px;
@@ -142,7 +142,7 @@ p {
     }
 }
 
-/* Style the tab */
+/* tab */
 .tab {
     margin-top: 2em;
     overflow: hidden;
@@ -150,9 +150,9 @@ p {
     background-color: #f1f1f1;
     display: flex;
     justify-content: space-evenly;
+    width: 100%;
 }
 
-/* Style the buttons that are used to open the tab content */
 .tab button {
     width: 100%;
     height: auto;
@@ -170,21 +170,131 @@ p {
     font-size: 2em;
 }
 
-/* Change background color of buttons on hover */
 .tab button:hover {
     background-color: #ddd;
 }
 
-/* Create an active/current tablink class */
 .tab button.active {
     background-color: #ccc;
 }
 
-/* Style the tab content */
 .tabcontent {
+    width: 100%;
     display: none;
-    padding: 6px 12px;
-    font-family: 'Poppins', sans-serif;
-    text-transform: lowercase;
-    font-size: 2em;
+}
+
+/* self portrait css */
+#sp_photoGroup1, #sp_photoGroup2,
+#sp_photoGroup3, #sp_photoGroup4,
+#sp_photoGroup5, #sp_photoGroup6,
+#sp_photoGroup7 {
+    display: inline-flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 4em;
+}
+
+#sp_photoGroup1 a, #sp_photoGroup2 a,
+#sp_photoGroup3 a, #sp_photoGroup4 a,
+#sp_photoGroup5 a, #sp_photoGroup6 a,
+#sp_photoGroup7 a {
+    width: 100%;
+    padding: 1em;
+}
+
+#sp_photoGroup1 img, #sp_photoGroup2 img,
+#sp_photoGroup3 img, #sp_photoGroup4 img,
+#sp_photoGroup5 img, #sp_photoGroup6 img,
+#sp_photoGroup7 img {
+    width: 100%;
+}
+
+/* portrait css */
+#portrait_photoGroup1, #portrait_photoGroup2,
+#portrait_photoGroup3, #portrait_photoGroup4,
+#portrait_photoGroup5, #portrait_photoGroup6,
+#portrait_photoGroup7, #portrait_photoGroup8,
+#portrait_photoGroup9, #portrait_photoGroup10,
+#portrait_photoGroup11, #portrait_photoGroup12,
+#portrait_photoGroup13, #portrait_photoGroup14 {
+    display: inline-flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 4em;
+}
+
+#portrait_photoGroup1 a, #portrait_photoGroup2 a,
+#portrait_photoGroup3 a, #portrait_photoGroup4 a,
+#portrait_photoGroup5 a, #portrait_photoGroup6 a,
+#portrait_photoGroup7 a, #portrait_photoGroup8 a,
+#portrait_photoGroup9 a, #portrait_photoGroup10 a,
+#portrait_photoGroup11 a, #portrait_photoGroup12 a,
+#portrait_photoGroup13 a, #portrait_photoGroup14 a {
+    width: 100%;
+    padding: 1em;
+}
+
+#portrait_photoGroup1 img, #portrait_photoGroup2 img,
+#portrait_photoGroup3 img, #portrait_photoGroup4 img,
+#portrait_photoGroup5 img, #portrait_photoGroup6 img,
+#portrait_photoGroup7 img, #portrait_photoGroup8 img,
+#portrait_photoGroup9 img, #portrait_photoGroup10 img,
+#portrait_photoGroup11 img, #portrait_photoGroup12 img,
+#portrait_photoGroup13 img, #portrait_photoGroup14 img {
+    width: 100%;
+}
+
+/* nature css */
+#nature_photoGroup1, #nature_photoGroup2,
+#nature_photoGroup3, #nature_photoGroup4,
+#nature_photoGroup5 {
+    display: inline-flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 4em;
+}
+
+#nature_photoGroup1 a, #nature_photoGroup2 a,
+#nature_photoGroup3 a, #nature_photoGroup4 a,
+#nature_photoGroup5 a {
+    width: 100%;
+    padding: 1em;
+}
+
+#nature_photoGroup1 img, #nature_photoGroup2 img,
+#nature_photoGroup3 img, #nature_photoGroup4 img,
+#nature_photoGroup5 img {
+    width: 100%;
+}
+
+/* concert css */
+#concert_photoGroup1, #concert_photoGroup2,
+#concert_photoGroup3, #concert_photoGroup4,
+#concert_photoGroup5, #concert_photoGroup6,
+#concert_photoGroup7, #concert_photoGroup8,
+#concert_photoGroup8, #concert_photoGroup9,
+#concert_photoGroup10 {
+    display: inline-flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 4em;
+}
+
+#concert_photoGroup1 a, #concert_photoGroup2 a,
+#concert_photoGroup3 a, #concert_photoGroup4 a,
+#concert_photoGroup5 a, #concert_photoGroup6 a,
+#concert_photoGroup7 a, #concert_photoGroup8 a,
+#concert_photoGroup8 a, #concert_photoGroup9 a,
+#concert_photoGroup10 a {
+    width: 100%;
+    padding: 1em;
+}
+
+#concert_photoGroup1 img, #concert_photoGroup2 img,
+#concert_photoGroup3 img, #concert_photoGroup4 img,
+#concert_photoGroup5 img, #concert_photoGroup6 img,
+#concert_photoGroup7 img, #concert_photoGroup8 img,
+#concert_photoGroup8 img, #concert_photoGroup9 img,
+#concert_photoGroup10 img {
+    width: 100%;
 }
