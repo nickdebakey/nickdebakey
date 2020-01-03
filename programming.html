@@ -7,6 +7,13 @@ Personal Website
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+
+    <!-- documentation for link preview -->
+    <meta property="og:title" content="Programming Projects | Nick DeBakey">
+    <meta property="og:image" content="https://live.staticflickr.com/65535/49322899336_7a45ab813f_c.jpg">
+    <meta property="og:description" content="Programming projects portfolio of work completed.">
+    <meta property="og:url" content="https://webpages.uncc.edu/ndebakey/nd_test/programming.html/">
+
     <title>Programming Projects</title>
 
     <!-- personal JavaScript -->
@@ -30,7 +37,7 @@ Personal Website
             <a href="about.html" class="links">About</a>
         </div>
         <div class="navContainer">
-            <!-- hanburger nav button -->
+            <!-- hamburger nav button -->
             <button class="openbtn" onclick="openNav()">&#9776;</button>
 
             <!-- name of website to right of hamburger nav button -->
@@ -45,5 +52,40 @@ Personal Website
     </section>
     <div class="divider"></div>
 </main>
+<!-- tabs for different categories -->
+<div class="tab">
+    <button class="tablinks" onclick="openPortfolio(event, 'Websites')">Websites</button>
+    <button class="tablinks" onclick="openPortfolio(event, 'AndroidApps')">Android Applications</button>
+</div>
+<div id="Websites" class="tabcontent">
+    <div id="mpphotography">
+        <a href="https://webpages.uncc.edu/ndebakey/Exercise/InteractiveWebApplication/DeBakey-InteractiveWebApplication.html" target=”_blank”>
+            <p class="maddieTitle">Maddie Pearson Photography</p>
+        </a>
+            <video width="50%" height="auto" controls>
+                <source src="https://thumbs.gfycat.com/SpotlessWindingLeafbird-mobile.mp4" type="video/mp4">
+            </video>
+        <p class="maddieDesc">A business website for my friend, Maddie Pearson, who is a professional photographer. <br> Website allows for visitors to view her portfolio, schedule a photoshoot, contact her.</p>
+    </div>
+</div>
+<div id="AndroidApps" class="tabcontent">
+    <div class="androidContainer">
+        <div id="Group33_IC07">
+            <a href="https://github.com/nickdebakey/Group33_IC07"><p>MusixMatch Song Search (API)</p></a>
+            <img src="https://thumbs.gfycat.com/MedicalBaggyBlacknorwegianelkhound-size_restricted.gif">
+            <p class="androidDesc">Android Application that allows for users to search through MusixMatch's database to locate their favorite genres music. Application calls MusixMatch's API for their song database.</p>
+        </div>
+        <div id="Group33_IC11">
+            <a href="https://github.com/nickdebakey/IC11_Group33"><p>Photo Album Database (cloud storage)</p></a>
+            <img src="https://thumbs.gfycat.com/ValuableCaringCat-size_restricted.gif">
+            <p class="androidDesc">Android Application that allows users to take photos with their device and store them in Google's FireStore database (Cloud Storage). Application will check to see if photos are already in cloud, load those and displaying them upon launch.</p>
+        </div>
+        <div id="Group33_IC06">
+            <a href="https://github.com/nickdebakey/Group33_IC06"><p>News Article (API)</p></a>
+            <img src="https://thumbs.gfycat.com/CleanOpulentAsp-size_restricted.gif">
+            <p class="androidDesc">Android Application that allows users to browse for news using the "newsapi.org" database. (Caution: Some news articles do not have all criteria to fill page, resulting in null objects upon loading)</p>
+        </div>
+    </div>
+</div>
 </body>
 </html>

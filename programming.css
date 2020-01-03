@@ -68,7 +68,6 @@
 .openbtn {
     font-size: 5.5em;
     cursor: pointer;
-    background-color: white;
     color: black;
     border: none;
     margin: 0 0 0 2vw;
@@ -136,4 +135,125 @@ p {
     to {
         background-position: 200% center;
     }
+}
+
+/* tab */
+.tab {
+    margin-top: 2em;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.tab button {
+    width: 100%;
+    height: auto;
+    background-color: inherit;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    margin: auto;
+    transition: 0.3s;
+    border: none;
+
+    /* text styling */
+    font-family: 'Poppins', sans-serif;
+    text-transform: lowercase;
+    font-size: 2.5em;
+}
+
+.tab button:hover {
+    background-color: #ddd;
+}
+
+.tab button.active {
+    background-color: #ccc;
+}
+
+.tabcontent {
+    width: 100%;
+    display: none;
+    margin-top: 4em;
+}
+
+#mpphotography {
+    display: block;
+    justify-content: center;
+    width: 100%;
+    margin-top: 1em;
+    text-align: center;
+}
+
+#mpphotography a {
+    text-decoration: none;
+    color: gray;
+}
+
+#mpphotography a:visited {
+    text-decoration: none;
+    color: gray;
+}
+
+#mpphotography a:hover {
+    color: black;
+    letter-spacing: 0.3125em;
+}
+
+.maddieTitle {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 1.5em;
+    text-transform: lowercase;
+    margin: 2em;
+    transition: 0.4s;
+}
+
+video {
+    padding: 1em;
+    border: 1px solid black;
+}
+
+.maddieDesc {
+    font-family: 'Poppins', sans-serif;
+    text-transform: lowercase;
+    padding: 0 3.125em;
+}
+
+#Group33_IC07, #Group33_IC11, #Group33_IC06 {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+#AndroidApps img {
+    width: 15.625em;
+}
+
+#AndroidApps a {
+    text-decoration: none;
+    color: gray;
+    font-family: 'Poppins', sans-serif;
+    transition: 0.4s;
+}
+
+#AndroidApps a:visited {
+    text-decoration: none;
+    color: gray;
+}
+
+#AndroidApps a:hover {
+    color: black;
+    letter-spacing: 0.3125em;
+}
+
+.androidContainer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.androidDesc {
+    padding: 1em;
 }
