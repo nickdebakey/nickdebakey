@@ -280,19 +280,19 @@ p {
 }
 
 #aboutContainer, #aboutWebContainer, #languagesContainer,
-#softwareContainer, #OSprefContainer {
+#softwareContainer, #OSprefContainer, #resumeContainer {
     background-color: #dddddd;
     margin: 1em;
     border: 1px solid black;
 }
 
 #aboutMe, #aboutWebsite, #languages,
-#software, #OSPref {
+#software, #OSPref, #resume {
     width: 100%;
 }
 
 #aboutMeTitle, #aboutWebsiteTitle, #languagesTitle,
-#softwareTitle, #OSPrefTitle {
+#softwareTitle, #OSPrefTitle, #resumeTitle {
     margin: 0;
     padding: 0;
 }
