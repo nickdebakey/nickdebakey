@@ -74,6 +74,10 @@
     padding: 0;
 }
 
+button {
+    background-color: transparent;
+}
+
 /* "nick debakey" home link next to hamburger */
 .home a {
     /* positioning */
