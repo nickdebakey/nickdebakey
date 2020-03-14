@@ -61,11 +61,13 @@ Programming Projects Portfolio
         <p>Programming Projects</p>
     </section>
     <div class="divider"></div>
+    <div class="whiteBG"></div>
 </main>
 <!-- tabs for different categories -->
 <div class="tab">
     <button class="tablinks" onclick="openPortfolio(event, 'Websites')">Websites</button>
     <button class="tablinks" onclick="openPortfolio(event, 'AndroidApps')">Android Applications</button>
+    <button class="tablinks" onclick="openPortfolio(event, 'hciProject')">Smart Calendar</button>
 </div>
 <div id="Websites" class="tabcontent">
     <div id="mpphotography">
@@ -96,6 +98,463 @@ Programming Projects Portfolio
             <p class="androidDesc">Android Application that allows users to browse for news using the "newsapi.org" database. (Caution: Some news articles do not have all criteria to fill page, resulting in null objects upon loading)</p>
         </div>
     </div>
+</div>
+<div id="hciProject" class="tabcontent">
+    <div class="hciSideBar">
+        <a href="#hciProjectTitle">title</a>
+        <a href="#hciNeedfindingTitle">needfinding</a>
+        <a href="#hciDesignGoalsTitle">design goals</a>
+        <a href="#hciDesignPrototypeTitle">design prototype</a>
+        <a href="#hciUsabilityTitle">usability & evaluation</a>
+    </div>
+    <section class="hciContainer-Title">
+        <p id="hciProjectTitle">Smart Calendar</p>
+        <p class="hciH2">Design Project <br> ITIS 3130 <br> Human Computer Interaction</p>
+        <img src="https://live.staticflickr.com/65535/49659328303_dc556d7513_o.png">
+    </section>
+    <section class="hciContainer">
+        <p id="hciNeedfindingTitle">Needfinding</p>
+        <p class="hciH2">Target Users:</p>
+        <p class="hciH3">Characteristics of Intended Users:</p>
+        <p class="hciBodyText">
+            The intended population will consist of individuals who find that stress from poor time management is negatively affecting their lives.
+            Specifically, those that find difficulty in scheduling personal care time to help manage stress.
+            This may consist of people that hold multiple jobs, juggle school and work, have long daily commutes, or feel that there are simply not enough hours in the day to get everything done.
+            Many people feel guilty or unproductive by taking breaks, not realizing the benefits of temporarily stepping away from certain responsibilities to come back with a fresh set of eyes.
+            Intended users are not limited to a specific population, but targeted users will primarily consist of college students.
+        </p>
+        <p class="hciH3">Reasons Users Would Choose Smart Calendar:</p>
+        <p class="hciBodyText">
+            Individuals would choose our app to help find relief from stress caused by the situations mentioned above.
+            It will be cheap and available to anyone with a computer or smartphone.
+            As a result, it will appeal to people on a tight budget.
+            Portability is also incredibly important for people that are always on the go or commuting. Students who feel like they cannot take a break from studying will love this app.
+            It will allow them to see gaps in their busy class schedule where they can they can take a step back, and suggest relaxing activities to do during this time.
+            It helps take away the added stress of managing your schedule, assisting in managing time without much user effort.
+        </p>
+        <p class="hciH2">Source Problem:</p>
+        <p class="hciBodyText">
+            The main problem before using the app the user may or may not have a schedule but do not necessarily know how to manage the time.
+            This can be due to a perceived stress from attempting to manage their hectic schedule, having such a busy schedule the user does not perceive any free time, or other related causes.
+            We found in our needfinding that while many participants believe they manage their time well, a similar percentage experience high levels of stress from deadlines and time management.
+            This app aims to remove the stress of time management from the user, allowing them to focus only on deadlines and personal care.
+            <br>
+            <br>
+            Once in the app the user will need to plug in different events or tasks that need to be accomplished, and then will be able select from multiple schedules that work for them.
+            Then they will be able to get notifications or text alerts to help them follow their new schedule.
+        </p>
+        <p class="hciH2">Personas:</p>
+        <p class="hciH3">Simon Lee</p>
+        <p class="hciH4">Profile:</p>
+        <p class="hciBodyText">
+            Simon is a 24 year old senior at the University of North Carolina at Charlotte.
+            He lives out of town and commutes every day.
+            He also works as a software developer intern and a teaching assistant.
+            Since he commutes and has out of school responsibilities, time management is very important to him.
+            However, he does a poor job with time management, and this causes unnecessary stress.
+            His primary form of digital time management involves utilizing the built-in tools on canvas, his schools online student portal.
+            He does not find any problems with these time management tools, but has not attempted to utilize alternative digital methods.
+        </p>
+        <p class="hciH4">Responsibilities:</p>
+        <p class="hciBodyText">
+            This semester, Simon has four classes, one of which has an accompanying lab session.
+            As a result, he needs to be on campus every day.
+            A long commute makes this even more stressful.
+            He has to account for an hour drive to and from campus, sometimes more depending on traffic.
+            When he is in Charlotte, he is either working at his internship or focusing on schoolwork.
+            At home he has very little time to relax, as he gets home late and has to catch up on assignments, study, and find time to spend with his family.
+        </p>
+        <p class="hciH4">Pain Points:</p>
+        <p class="hciBodyText">
+            Simon tends to start on assignments either at the last minute or two to three days before the due date at the earliest.
+            Many assignments share the same due date, making time management even more important.
+            Since Simon only utilizes Canvas to keep track of assignments, waiting until the last minute can cause a large number of assignments to appear as one block on his calendar, increasing anxiety and stress.
+            <br>
+            Simon has not attempted to utilize any third party time management applications, and therefore is restricted by the limitations of the Canvas modules and its calendar system.
+            He does used sticky notes sometimes as quick reminders.
+        </p>
+        <p class="hciH4">Key Drivers/Motivation:</p>
+        <p class="hciBodyText">
+            Simon is a second degree seeking student. He started college four years ago and ended up going the wrong career route.
+            After graduating and wondering what to do with his life, he was introduced to programming and got hooked.
+            He decided to return to school and make it his top priority.
+            It is a huge investment which will have a great return, allowing him to support himself and his family in the near future.
+        </p>
+        <p class="hciH3">Kimberly Lippington</p>
+        <p class="hciH4">Profile:</p>
+        <p class="hciBodyText">
+            Kimberly is a junior in college living on campus and is a Visual Art major with a concentration in painting at the University of North Carolina at Charlotte.
+            She is currently working on padding out her resume with high grades, side projects and certifications.
+            She is very close with her family, of which she will be the first to graduate from college.
+            She believes that she manages her time fairly well, rarely missing homework or assignment deadlines.
+            However, because of her busy schedule, she gets very little sleep.
+        </p>
+        <p class="hciH4">Responsibilities:</p>
+        <p class="hciBodyText">
+            Kimberly is taking fifteen credit hours worth of junior level art courses.
+            She is constantly busy, even on the weekends.
+            For school, she has to find time to go to the art studio on campus when it is open and pay for her own supplies.
+            She also has to go to public exhibitions for class credit.
+            She is also part of an art group that hosts their own exhibitions.
+            On top of this, she works part time for a local fast food restaurant.
+        </p>
+        <p class="hciH4">Pain Points:</p>
+        <p class="hciBodyText">
+            Kimberly does not know when to take a break from working.
+            She is constantly fatigued from overworking herself, either from serving burgers and fries or from a long cram session for an important exam.
+            This causes her extreme stress at times and the occasional mental breakdown.
+            This can affect her performance both at school and at work.
+            <br>
+            Kimberly uses Google Calendar as her primary source for maintaining her busy schedule, but feels that she uses it inefficiently.
+            She isn’t extremely tech-savvy and wishes that it was a little less feature-packed.
+        </p>
+        <p class="hciH4">Key Drivers/Motivation:</p>
+        <p class="hciBodyText">
+            Kimberly goes to class everyday because she wants her degree and a good job, but most importantly, she wants to make her family proud.
+            She would also love to be financially stable enough to start a family of her own some day, but of course not before some traveling.
+            Also, working at a fast food restaurant is definitely not her dream job, and she knows he is meant for bigger and better things.
+        </p>
+        <p class="hciH2">Needfinding Survey:</p>
+        <p class="hciBodyText">
+            The needfinding survey consisted of an online survey containing ten questions.
+            These questions were a mix of multiple choice and free response.
+            Survey responses were sourced from the target demographic, namely college students.
+            <br>
+            Our questions all relate and are aligned with the needs of our applications.
+            This survey allowed for us to gain a general knowledge of the intended users and their levels of anxiety,
+            stress, or relaxation of assignments, deadlines, and time-management.
+            We used this information for the basis and prototype of our application and we can further develop this
+            application in the future in regards to the information in this survey.
+        </p>
+        <p class="hciH3">Analysis:</p>
+        <p class="hciBodyText">
+            One of the primary takeaways from the survey results was not directly related to the
+            statistical data gathered, but rather the types of responses received. We allowed free responses
+            to questions considered important to assisting with the design of our prototype. However, given
+            the free nature of the responses, we gathered approximately 25% useless responses. This
+            prompted some of our interview questions, which helped fill in the gaps and allow us to craft
+            proper design goals and prototype design. However, moving forward, we have learned to be
+            more pointed in the questions we ask in this medium.
+            <br>
+            An interesting statistical takeaway from the data is the unusual correlation between
+            self-reported time management and self-reported stress levels from time management. One
+            would expect that a population reporting a high skill level of time management would then report
+            a lower amount of stress from deadlines and time management. However, our data showed the
+            opposite. The population we interviewed reported both skill in time management and high levels
+            of stress from deadlines and time management. We postulate that this comes from the
+            additional stress managing your schedule causes, and one of our design goals it to help
+            alleviate that additional stress. It is worthwhile to not that the form of the question could also be
+            prompting this response. We asked about stress from deadlines and time management in the
+            same question, which could have skewed the responses as participants reported stress from
+            deadlines. In the future, a better practice would be to separate concerns into separate
+            questions.
+            <br>
+            Some of the problems our survey did not address were surrounding why participants felt
+            stress surrounding time management, and why they made certain choices surrounding their
+            time management tools. To better explore these questions, we decided to perform in-person
+            interviews for additional needfinding.
+        </p>
+        <p class="hciH2">Needfinding Interviews:</p>
+        <p class="hciBodyText">
+            The results from our survey provided great statistical and quantitative data, but there
+            were some areas that still needed to be explored to better give us an idea of our intended users’
+            needs. We conducted four semi-structured interviews, each consisting of four questions, to
+            cover these areas and to better understand our users. Two of the interviewees were computer
+            science majors, while two were a little less tech-savvy. One of the interviewees frequently used
+            a time-management app, another few seldom used one, and the remaining were non-users. We
+            made sure that everyone felt comfortable during the interview by letting them know that were no
+            right or wrong answers, and that any feedback was greatly valued.
+            The differences and similarities in their responses served as wonderful feedback and
+            better prepared us for moving forward with our design. Below are the questions that were
+            asked, accompanied by a summary of the responses and our evaluation. Some questions have
+            follow-up questions that were asked depending on the interviewees’ responses.
+        </p>
+        <p class="hciH3">Question 1:</p>
+        <p class="hciNFIQuestion"><i>Could you briefly walk me through one of your busier days?</i></p>
+        <p class="hciBodyText">
+            Everyone woke up very early, between 6am and 8am. Some went to class almost
+            immediately, and some had some time before their first class. Of the two who went directly to
+            class, both were busy until the early afternoon, and had to work right after. Everyone mentioned
+            having to complete homework at some point during the day, with the exception of the recent
+            graduate, who stated he felt like he still had to be productive despite the lack of homework or a
+            steady job.
+        </p>
+        <p class="hciH3">Question 2:</p>
+        <p class="hciNFIQuestion"><i>What methods, if any, do you use to keep track of your schedule or responsibilities? Why or why
+            not? If you do, do you find that it is beneficial? Why or why not?. What are aspects of (your
+            chosen method) that you would improve upon?</i></p>
+        <p class="hciBodyText">
+            Three of the participants utilized Google Calendar for their time management. Of these
+            three, two primarily used Google Calendar and one used a collection of apps, each for different
+            schedules. One interviewee expressed how the notifications of Google Calendar helped keep
+            him on track throughout the day, but wished it could automatically input events and tasks so he
+            did not have to remember to schedule them. One interviewee used a <b>simple physical calendar</b>
+            to keep track of everything. All interviewees expressed that they could do a better job or make
+            improvements to their system, but lacked the ability or drive to make said improvements.
+        </p>
+        <p class="hciH3">Question 3:</p>
+        <p class="hciNFIQuestion"><i>What time(s) during your busy days do you feel like you could possibly take a break, but you
+            decide not to? How long are your breaks? What do you do on your breaks? Do breaks make
+            you feel unproductive or guilty?</i></p>
+        <p class="hciBodyText">
+            All four people said they took breaks, all at different times during the day, each break
+            ranging from two to three hours. Only one said that breaks were not an option due to having
+            such a demanding schedule. One of those that took breaks said that they did so to have time for
+            homework. It is interesting to see that doing school is perceived as taking a break. All of those
+            that took breaks said they felt guilty or unproductive to some extent, but even more so if they
+            took a break during a time they believed they were supposed to be productive. One person
+            expressed a desire to take breaks, but said it is hard to come back and be productive. Overall
+            the responses seem to indicate that the interviewees desire to take breaks, but view breaks in a
+            negative fashion based on what they believe they should be working on at the time.
+        </p>
+        <p class="hciH3">Question 4:</p>
+        <p class="hciNFIQuestion"><i>Taking breaks to refresh yourself and recharge can decrease stress and anxiety, as well as
+            increase focus. If you knew more about the mental and physical benefits, would you be more
+            likely to take a breaks and feel better about doing so , especially if you were reminded every now
+            and then?</i></p>
+        <p class="hciBodyText">
+            All participants expressed knowledge of the benefits of taking breaks, but said they
+            generally choose to ignore them because they are busy at the time. If they take breaks, they
+            view themselves as unproductive or that they will be viewed negatively by others. Most
+            expressed that being reminded of these benefits when prompted to take a break would be
+            beneficial.
+        </p>
+        <p class="hciH3">Summary:</p>
+        <p class="hciBodyText">
+            Taking the data gathered from our two needfinding methods, we determined there were
+            many pain points in participants’ daily time management. Many felt overwhelmed and could find
+            no reasonable amount of time to take a break during their busiest days. Some felt either guilty
+            or unproductive if they decided to take a break, even if for a short period of time. Some did not
+            know of the possible health benefits, both mental and physical, of taking breaks, but seemed
+            more inclined to take them if more information was presented.
+            <br>
+            In regards to the survey, most participants claimed they use Canvas tools the most and
+            also said they use their time wisely. Participants also said that they start assignments and
+            projects two to three days before they are due, and this coincides with the fact that they are
+            using Canvas because Canvas only displays the coming week’s assignments that are due.
+        </p>
+    </section>
+    <section class="hciContainer">
+        <p id="hciDesignGoalsTitle">Design Goals:</p>
+        <p class="hciBodyText">
+            Our first design goal is to assist the user in scheduling time to work on assignments
+            around existing obligations. This design goal was pulled from the results of our needfinding
+            showing that a large percentage of our target population reported high time management skills,
+            but at the same time reported high levels of stress stemming from time management. We
+            believe this response is due partially to the additional stress caused by attempting to manage
+            ones schedule, so our first design goal is aimed at alleviating this stress.
+            <br>
+            Our second goal is to relieve stress by allowing the user to have planned breaks in their
+            day dedicated to relaxing and disconnecting. We pulled this from the responses to our third
+            interview question. Most interviewees expressed difficulty in finding time to schedule breaks in
+            their day, as they did not perceive any free time available for the purpose. We postulate that this
+            is more of a perceived issue than an actual time availability issue, and therefore aim to address
+            this in our app design.
+            <br>
+            The final goal is to alleviate and mitigate any guilt the user may have by taking breaks
+            from obligations because these breaks will already be a part of their day. Responses to our third
+            interview question indicated that some of our participants felt anxiety or other negative reactions
+            to taking breaks. The responses to our fourth question also indicated that some of these
+            negative responses could be reduced or negated with information pertaining to the benefits of
+            taking such breaks. Our app design plans to incorporate these breaks into their day, addressing
+            the feeling that they should be doing some other task during that time. We also incorporate
+            encouraging messages and facts about stress relief and breaks into these notifications,
+            addressing the responses to the fourth interview question.
+        </p>
+        <p class="hciH2">Scenario:</p>
+        <p class="hciBodyText">
+            Simon Lee was spending his afternoon working on his school-work like the very dedicated
+            student he is. When working on his assignments he started to experience a wave of emotions
+            such as, anxiety, frustration, and nervousness. Suddenly “Smart Calendar” on his phone alerted
+            him through a notification that he should take a thirty minute break. Simon then took his break by
+            watching one of his favorite television shows; upon returning to his work, he was more relaxed
+            and focused than before. The break away from the work allowed for him to shift his state of
+            mind from a negative, anxious one and resume working with a more peaceful and determined
+            one.
+        </p>
+        <p class="hciH2">Storyboard:</p>
+        <img id="storyboard" src="https://live.staticflickr.com/65535/49659328298_9616dd8b66_o.png">
+        <p class="hciH2">Design Description:</p>
+        <p class="hciH3">Design Concept:</p>
+        <p class="hciH4">Low Fidelity Prototype (Wireframes):</p>
+        <img class="wireframes" src="https://live.staticflickr.com/65535/49659328283_03e54c4deb_o.png">
+        <img class="wireframes" src="https://live.staticflickr.com/65535/49660148967_6c3d3c9d9e_o.png">
+        <img class="wireframes" src="https://live.staticflickr.com/65535/49659869626_05b3fdf77e_o.png">
+        <img class="wireframes" src="https://live.staticflickr.com/65535/49660149162_5752976f1d_o.png">
+        <img class="wireframes" src="https://live.staticflickr.com/65535/49659328398_34ef6da5c3_o.png">
+        <img class="wireframes" src="https://live.staticflickr.com/65535/49659869566_e64d876a0f_o.png">
+        <p class="hciH4">Explanation of Wireframes:</p>
+        <p>
+            <ol>
+                <li>When the application is opened the user is greeted with the welcome page. Simply tap
+                    on “Get Started” to launch into the software.</li>
+                <li>Next the user is given the “Info Page” where they can enter their information to create
+                    an account.</li>
+                <li>The next step in the set-up is the ability to Link a school calendar or create a new
+                    calendar.</li>
+                <li>Once that is completed, the user is taken to the applications home page. It’s simply a
+                    monthly view of the calendar.</li>
+                <li>The next thing to do is start adding events to the calendar. This page shows how the
+                    event will be made, the user will enter the time of the event, the duration of the event,
+                    the name of the event, and any additional details.</li>
+                <li>When enough events are added, the application will notice times in the schedule to add
+                    a break time so the user feels less guilt taking a break when there are other events to do
+                    later.</li>
+            </ol>
+        </p>
+        <p class="hciH3">User Journey:</p>
+        <img id="userJourney" src="https://live.staticflickr.com/65535/49659869556_5306a4d6ae_o.png">
+    </section>
+    <section class="hciContainer">
+        <p id="hciDesignPrototypeTitle">Design Prototype:</p>
+        <img class="highFidelity" src="https://live.staticflickr.com/65535/49659869546_4be0259e2c_o.png">
+        <img class="highFidelity" src=https://live.staticflickr.com/65535/49659869511_d264ba5090_o.png">
+        <img class="highFidelity" src="https://live.staticflickr.com/65535/49660149057_fb5a919d68_o.png">
+        <img class="highFidelity" src="https://live.staticflickr.com/65535/49660149047_27d9a8373a_o.png">
+        <img class="highFidelity" src="https://live.staticflickr.com/65535/49659328328_46672f8d30_o.png">
+        <img class="highFidelity" src="https://live.staticflickr.com/65535/49659328313_9f4bf4f7a2_o.png">
+        <img class="highFidelity" src="https://live.staticflickr.com/65535/49659869476_6e0f9dfae1_o.png">
+    </section>
+    <section class="hciContainer">
+        <p id="hciUsabilityTitle">Usability and Evaluation:</p>
+        <p class="hciH2">Design Goals:</p>
+        <p class="hciBodyText">
+            As stated previously, our first design goal is to assist the user in scheduling time to work
+            on assignments around existing obligations. This is based on response about time management
+            stress in our survey. Our second goal is to relieve stress by allowing the user to have planned
+            breaks in their day dedicated to relaxing and disconnecting, based on responses to our third
+            interview question. The final goal is to alleviate and mitigate any guilt the user may have by
+            taking breaks from obligations because these breaks will already be a part of their day, based
+            on responses to our third and fourth interview questions.
+        </p>
+        <p class="hciH2">Goals of Usability Study:</p>
+        <p class="hciBodyText">
+            The goal of the Usability Study is to gain knowledge on areas within our application to
+            improve on, areas that need a redesign, as well as gain any additional information regarding
+            levels of difficulty navigating or using our application as a whole from the participants we
+            interacted with.
+        </p>
+        <p class="hciH2">Experimental Usability Study:</p>
+        <p class="hciH3">Protocol:</p>
+        <ul>
+            <li>Facilitator: Virgil English</li>
+            <li>Note Taker: Daniel Garwood</li>
+        </ul>
+        <p class="hciH3">Training Sessions:</p>
+        <p class="hciBodyText">
+            There is no prior training or knowledge to have before the participants use the
+            application. A piece of prior tasks to complete in the app is on the launch screen “Get Started”
+            and the following page to “sign up” both pages do not take any specific input that will be used in
+            the future portions of the study, it is just to emulate a real application experience.
+        </p>
+        <p class="hciH3">Set of Tasks:</p>
+        <p class="hciBodyText">
+            Launch the application and make an account through the login screen and continue with the
+            setup process by following the prompts on screen (Import a calendar, when prompted).
+            Check if you have time for a lunch date on January 21st.</p>
+            <ul>
+                <li>When the user checks their schedule for the 21st, a pop-up will say an
+                    encouraging message about having a busy day that day, and suggesting a walk
+                    around campus at a specific time. This will fulfill both the help the user schedule
+                    breaks goal, as well as make the user feel less guilty by providing encouraging
+                    prompts and messages surrounding the idea of a break.</li>
+            </ul>
+        <p class="hciBodyText">Add an event for January 11th called “Math exam” scheduled for 4:30pm.</p>
+            <ul>
+                <li>Once the user adds the second event, will provide a pop-up saying the two
+                    events are close together, and suggest giving themselves some rest after a
+                    stressful exam. This will help fulfill design goals 2 and 3.</li>
+            </ul>
+        <p class="hciBodyText">Add an upcoming assignment.</p>
+            <ul>
+                <li>After the user adds the assignment, with name, due date, and completion time
+                    being pre-filled out, the application will suggest 3 times during the next week that
+                    it can be completed. This will fulfill the first design goal, assist the user in
+                    scheduling their assignments around their current schedules.</li>
+            </ul>
+        <p class="hciH3">Data to be Collected:</p>
+        <p class="hciBodyText">
+            Determine whether or not our programs help users to feel good about taking breaks,
+            rather than guilty. Determine if people find suggestions from a computer to be helpful in
+            determining a schedule. Obtain feedback from the participants on any specific improvements
+            that they offer to us that we did not or cannot think of.
+        </p>
+        <p class="hciH3">Analysis on Data Collected:</p>
+        <p class="hciBodyText">
+            The feedback that was received from the Experimental Usability Study was beyond
+            helpful to us. As the designers and creators of the application there were some aspects that we
+            assumed the user would know and understand; we found that this was incorrect. Our participant
+            understood most of the intended function, but found that some aspects of the application were
+            not emphasized enough. This was similar to the feedback we received from doing the usability
+            study in one of our in-class activities. It also was noted that our back buttons were not taking the
+            user to the screens they desired or expected, therefore disturbing the user experience.
+        </p>
+        <p class="hciH3">Changes to be made/were made from the Experimental Usability Study:</p>
+        <p class="hciBodyText">
+            Some changes that we did implement were the notification/alert that was going to show
+            up when enough events were added to the calendric day. The notification was showing up
+            roughly in the middle of the screen and the user did not understand this was a notification.
+            Though this could have been a combination of errors of our design and the limits of JustInMind,
+            we still decided to adjust our notification to swipe down from the top for a more organic
+            simulation. We did not implement the correction of the back button, but it would most definitely
+            be a change that would happen in the future if we pursued this application further.
+        </p>
+        <p class="hciH2">Individual Interviews:</p>
+        <p class="hciH3">Recruitment Process:</p>
+        <p class="hciBodyText">
+            We used Nick’s social skills to find two people to interview post-prototype creation. He
+            chose a biology major to complete one interview and also a journalism major to complete the
+            other. We decided to focus on a student population because that fits with our intended audience
+            for the application.
+        </p>
+        <p class="hciH3">Interview Questions:</p>
+        <ol>
+            <li>What were your impressions of the application?</li>
+            <li>Would you use this application if it was available to you?</li>
+            <li>Do you ever forget assignments?</li>
+            <li>Would you be more inclined to take breaks if they were scheduled in your day? If yes, do you believe your stress would depreciate because of scheduled
+                breaks? Do you feel like that taking breaks keeps your stress manageable? If no, why? What would incentivize you to take breaks?</li>
+            <li>Do you believe you would use the application on your own or would you need an
+                incentive to use the application regularly?</li>
+            <li>Would you use the application during times in the year when you are not busy?</li>
+            <li>If you are a student, such as times like summer break or winter break.</li>
+            <li>Any additional comments?</li>
+        </ol>
+        <p class="hciH3">Interview Process:</p>
+        <p class="hciBodyText">
+            The interviews were conducted at two separate times in a reserved room in the library
+            during the day (when the interviewee was most available). Nick showed the interviewees the
+            app and its functionality and proceeded to ask the questions. If additional follow up questions
+            based on the interviewee’s responses were able to be answered, they were asked; this included
+            items such as specifications, asking to elaborate, etc.
+        </p>
+        <p class="hciH3">Interview Results:</p>
+        <p class="hciBodyText">
+            In general the response between the participants was mixed. One of the participants did
+            not use calendar applications (this fortuitous coincidence coincides with one of our personas,
+            Jim Richards) except for the Canvas built-in Assignment Due Date calendar. The other
+            participant attempts to use calendar apps and written journals/papers to keep track of their
+            responsibilities, but inevitably stops/loses these items. One participant exclaimed that if this
+            application was actually working and did make a schedule for them it would be worth even
+            purchasing because it would ease some stress off of their back. Both parties did agree that the
+            visual aspect of the application was on the right track but some fonts were hard to read and they
+            did not like the light grayscale design and would have preferred a darker version. Both parties
+            also agreed that they would need incentives to use the application either due to forgetting to use
+            the application or not being motivated enough to get back on track after taking a break. They
+            also suggested that during times that were less stressful for students (winter/summer break)
+            they would not use the application.
+        </p>
+        <p class="hciH3">Changes that were/will be made as a Result of Interview:</p>
+        <p class="hciBodyText">
+            Some changes to the application that will be made in the future would be the visual
+            redesign of the application. Making fonts bolder, slightly larger, and contrasting with the
+            background image/color of the application. That would be an instant and basic aspect to
+            correct/redesign. After that, an incentive opportunity could be theorized and built upon such as a
+            point system, streak system, or social/sharing aspect. Hopefully those incentives or any others
+            that are theorized will incentivize the users to use the application frequently/daily, and
+            continuously even though times that are not stressful/busy.
+        </p>
+    </section>
 </div>
 </body>
 </html>

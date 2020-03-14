@@ -1,5 +1,5 @@
 /*
-    for photography portfolio page
+    for programming page
 */
 
 /*
@@ -16,7 +16,7 @@
     height: 100%;
     width: 0; /* 0 width - change this with JavaScript */
     position: fixed;
-    z-index: 1;
+    z-index: 15;
     top: 0;
     left: 0;
     background-color: white;
@@ -72,6 +72,7 @@
     border: none;
     margin: 0 0 0 2vw;
     padding: 0;
+    z-index: 15;
 }
 
 button {
@@ -85,6 +86,7 @@ button {
     line-height: 100px;
     white-space: nowrap;
     margin-left: 1vw;
+    position: relative;
 
     /* font properties */
     color: black;
@@ -94,6 +96,7 @@ button {
     font-size: 3em;
     text-decoration: none;
     text-transform: lowercase;
+    z-index: 15;
 }
 
 .navContainer {
@@ -118,6 +121,8 @@ p {
 .title {
     display: inline-flex;
     margin-bottom: -10px;
+    z-index: 15;
+    position: relative;
 }
 
 .title p {
@@ -133,12 +138,24 @@ p {
     background: linear-gradient(135deg, red, orange, yellow, green, blue, purple, magenta);
     background-size: 200% auto;
     animation: rainbow 8s linear infinite;
+    z-index: 15;
+    position: relative;
 }
 
 @keyframes rainbow {
     to {
         background-position: 200% center;
     }
+}
+
+.whiteBG {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 30em;
+    background: white;
+    z-index: 12;
 }
 
 /* tab */
@@ -150,6 +167,8 @@ p {
     display: flex;
     justify-content: space-evenly;
     width: 100%;
+    z-index: 15;
+    position: relative;
 }
 
 .tab button {
@@ -182,6 +201,8 @@ p {
     display: none;
     margin-top: 4em;
 }
+
+/* websites */
 
 #mpphotography {
     display: block;
@@ -226,6 +247,8 @@ video {
     padding: 0 3.125em;
 }
 
+/* android projects */
+
 #Group33_IC07, #Group33_IC11, #Group33_IC06 {
     display: block;
     width: 100%;
@@ -260,4 +283,115 @@ video {
 
 .androidDesc {
     padding: 1em;
+}
+
+/* hci project */
+
+html {
+    scroll-behavior: smooth;
+}
+
+.hciSideBar {
+    height: auto;
+    width: 10.5em;
+    position: fixed;
+    z-index: 1;
+    top: 1em;
+    left: 1em;
+    background: #cccccc;
+    overflow: hidden;
+}
+
+.hciSideBar a {
+    padding: 1em;
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: medium;
+    transition: 0.4s;
+}
+
+.hciSideBar a:hover {
+    letter-spacing: 0.15625em;
+    color: gray;
+}
+
+.hciContainer-Title {
+    margin-left: 12.5em;
+    margin-right: 1em;
+    text-align: center;
+}
+
+#storyboard {
+    margin: auto;
+}
+
+.hciContainer .wireframes {
+    padding: 1em;
+    margin: auto;
+}
+
+.hciContainer #userJourney {
+    padding: 1em;
+    margin: auto;
+}
+
+.hciContainer .highFidelity {
+    margin: auto;
+    padding: 1em;
+}
+
+.hciContainer ol, .hciContainer ul, .hciContainer li {
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+}
+
+.hciContainer {
+    margin-left: 12.5em;
+    margin-right: 1em;
+}
+
+#hciProjectTitle, #hciNeedfindingTitle, #hciDesignGoalsTitle,
+#hciDesignPrototypeTitle, #hciUsabilityTitle {
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: large;
+    letter-spacing: 0.3125em;
+}
+
+.hciH2 {
+    text-transform: initial;
+    font-weight: bold;
+    letter-spacing: 0.15625em;
+    margin-left: 1em;
+}
+
+.hciH3 {
+    text-transform: initial;
+    font-weight: bold;
+    letter-spacing: 0.078125em;
+    margin-left: 2em;
+}
+
+.hciH4 {
+    text-transform: initial;
+    font-weight: normal;
+    margin-left: 3em;
+}
+
+.hciBodyText {
+    text-transform: none;
+    font-weight: lighter;
+    text-align: justify;
+}
+
+.hciNFIQuestion {
+    text-transform: none;
+    font-weight: normal;
+}
+
+.hciContainer img {
+    display: block;
+    margin: 1em;
 }
