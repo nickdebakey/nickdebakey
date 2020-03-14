@@ -16,7 +16,7 @@
     height: 100%;
     width: 0; /* 0 width - change this with JavaScript */
     position: fixed;
-    z-index: 15;
+    z-index: 20;
     top: 0;
     left: 0;
     background-color: white;
