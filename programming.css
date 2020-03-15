@@ -317,6 +317,12 @@ html {
     color: gray;
 }
 
+#sideBarDivider {
+    width: 100%;
+    background: white;
+    height: 1em;
+}
+
 .hciContainer-Title {
     margin-left: 12.5em;
     margin-right: 1em;
